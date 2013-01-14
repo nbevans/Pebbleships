@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pebbleships", "Pebbleships\Pebbleships.csproj", "{AEFB7243-6373-44E1-8F2E-90F94A704B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pebbleships.Tests", "Pebbleships.Tests\Pebbleships.Tests.csproj", "{5C3275D8-A3CB-4C98-AF8D-D4E2E806C6ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A2C7E616-E767-4B17-B960-A7963523EA3E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEFB7243-6373-44E1-8F2E-90F94A704B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFB7243-6373-44E1-8F2E-90F94A704B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFB7243-6373-44E1-8F2E-90F94A704B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFB7243-6373-44E1-8F2E-90F94A704B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3275D8-A3CB-4C98-AF8D-D4E2E806C6ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3275D8-A3CB-4C98-AF8D-D4E2E806C6ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3275D8-A3CB-4C98-AF8D-D4E2E806C6ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3275D8-A3CB-4C98-AF8D-D4E2E806C6ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
